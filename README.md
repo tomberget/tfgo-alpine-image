@@ -10,7 +10,7 @@ In order to execute Terraform scripts, and testing them using [Gruntworks Terrat
 
 ## How does this work?
 
-### Overwriting arguements
+### Overwriting arguments
 
 The `build.sh` script file consist of a set of variables that overwrite the corresponding `ARG` variables defined in the `Dockerfile`. These are:
 
@@ -23,7 +23,7 @@ IMAGE_VERSION=
 
 `GOLANG_VERSION` and `ALPINE_VERSION` is used to get the correct base image. `TERRAFORM_VERSION` is used to define which version of *Terraform* to download and expand into the container image. `IMAGE_VERSION` is used to tag the container image made from the `Dockerfile`.
 
-In addition, there are two more arguements defined in the `Dockerfile` which can be overridden, but are currently not. These are:
+In addition, there are two more arguments defined in the `Dockerfile` which can be overridden, but are currently not. These are:
 
 - `USER_ID`: this defines the user id of the user we create so that the image does not run as *root*. Currently set to `1000`.
 - `USER_NAME`: this defines the name of the user of the `USER_ID`. Currently set to `iac`.
