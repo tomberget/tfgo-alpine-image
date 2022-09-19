@@ -1,8 +1,8 @@
-# Terraform, Git and Golang container image builder
+# *Terraform*, *Git* and *Golang* container image builder
 
 ## Why?
 
-In order to execute Terraform scripts, and testing them using [Gruntworks Terratest](https://github.com/gruntwork-io/terratest), it is necessary to maintain a container image which contains both Golang, Git and Terraform.
+In order to execute Terraform scripts, and testing them using [Gruntworks Terratest](https://github.com/gruntwork-io/terratest), it is necessary to maintain a container image which contains both *Golang*, *Git* and *Terraform*.
 
 - *Git* is necessary in order to clone repositories to the container image
 - *Terraform* is necessary in order to execute the *Terraform* scripts
